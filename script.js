@@ -56,11 +56,15 @@
                     const tdEmail = document.createElement('td')
                     tdEmail.innerHTML = estado.titular.email
 
+                   
+
+                   
+
                     const tr = document.createElement('tr')
                     tr.appendChild(tdNum)
                     tr.appendChild(tdAg)
                     tr.appendChild(tdTipo)
-                    tr.appendChild(tdSaldo)
+                    tr.appendChild(tdSaldo )
                     tr.appendChild(tdId)
                     tr.appendChild(tdNome)
                     tr.appendChild(tdCpf)
